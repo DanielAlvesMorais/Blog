@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <litle></litle>
+        <title>Login | Projeto</title>
         <link rel="stylesheet"
             href="lib/bootstrap-4.2.1-dist/css/bootstrap.min.css">
     </head>
