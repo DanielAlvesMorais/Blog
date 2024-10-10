@@ -1,3 +1,4 @@
+<!-- Função para a barra de navegação -->
 <div class="card">
     <div class="card-header">
         Menu
@@ -16,7 +17,8 @@
             <li class="nav-intem">
                 <a class="nav_link" href="post_formulario.php">Incluir Post</a>
             </li>
-            <?php if ((isset($_SESSION['login'])) && ($_SESSION['login']['usuario']['adm'] === 1)) : ?>
+            <?php if ((isset($_SESSION['login'])) && ($_SESSION['login']['usuario']['adm'] === 1)) : ?> 
+            <!-- Teste para determinar se página Usuário deve aperecer para o usuário -->
             <li class="nav-intem">
                 <a class="nav_link" href="usuario.php">Usuário</a>
             </li>
@@ -24,3 +26,4 @@
         </ul>
     </div>
 </div>
+

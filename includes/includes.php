@@ -1,4 +1,5 @@
 <?php
+    //Informações para a link com o Banco de Dados
     $hostname = 'localhost';
     $username = 'root';
     $password = '';

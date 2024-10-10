@@ -1,6 +1,6 @@
 <?php
 
-//Função para inserir dados de qualuqer tabela
+//Função para inserir dados de qualquer tabela
 function insert (string $entidade, array $dados) : String
 {
     $instrucao = "INSERT INTO {$entidade}";
@@ -14,7 +14,7 @@ function insert (string $entidade, array $dados) : String
     return $instrucao;
 }
 
-//Função para deletar dados de qualuqer tabela
+//Função para deletar dados de qualquer tabela
 function delete (string $entidade, array $criterio = []) : String
 {
     $instrucao = "DELETE {$entidade}";
@@ -32,7 +32,7 @@ function delete (string $entidade, array $criterio = []) : String
     return $instrucao;
 }
 
-//Função para atualizar dados de qualuqer tabela
+//Função para atualizar dados de qualquer tabela
 function update (string $entidade, array $dados, array $criterio = []) : string
 {
     $instrucao = "UPDATE {$entidade}";
@@ -55,7 +55,7 @@ function update (string $entidade, array $dados, array $criterio = []) : string
     return $instrucao;
 }
 
-//Função para selecionar dados de qualuqer tabela
+//Função para selecionar dados de qualquer tabela
 function  select (string $entidade, array $campos, array $criterio = [], string $ordem = null) : string
 {
     $instrucao = " SELECT " . implode(',',$campos);

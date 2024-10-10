@@ -34,5 +34,6 @@
         $criterio = [['id', '=', $id]];
         atualiza('usuario', $dados, $criterio);
     }
-
-?>  
+    
+    //Esse código foi feito por Daniel Alves de Morais GitHub -> https://github.com/DanielAlvesMorais
+?>
